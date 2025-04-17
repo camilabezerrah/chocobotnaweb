@@ -1,0 +1,20 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento, indicando que este é um documento HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres da página como UTF-8, garantindo suporte a caracteres especiais -->
+  <title>ChocoBot na Web</title> <!-- Define o título da página, que aparece na aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo de estilos (CSS), que define a aparência da página -->
+</head>
+<body>
+  <h1>🍫 ChocoBot</h1> <!-- Título principal da página, exibindo o nome "ChocoBot" com um ícone de chocolate -->
+
+  <div id="chat-container"> <!-- Contêiner principal do chat, onde todos os elementos do chat serão organizados -->
+    <div id="chatHistory"></div> <!-- Área onde as mensagens de conversa serão exibidas (chat history) -->
+    
+    <input type="text" id="userInput" placeholder="Pergunte sobre chocolate."> <!-- Campo de texto para o usuário digitar suas perguntas, com um texto de exemplo -->
+    <button id="sendButton">Enviar</button> <!-- Botão para enviar a mensagem digitada pelo usuário -->
+  </div>
+
+  <script src="client.js"></script> <!-- Link para o arquivo JavaScript (client.js), que contém a lógica do chat -->
+</body>
+</html>

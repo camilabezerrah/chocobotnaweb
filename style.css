@@ -1,0 +1,45 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo da página */
+    background-color: #9e775b; /* Define a cor de fundo da página*/
+    margin: 0; /* Remove as margens padrão da página */
+    padding: 20px; /* Adiciona um espaçamento de 20px em todos os lados da página */
+    text-align: center; /* Centraliza o conteúdo dentro do body */
+}
+
+/* Estiliza o container do chat */
+#chat-container {
+    max-width: 500px; /* Define a largura máxima do container para 500px */
+    margin: 0 auto; /* Centraliza o container na tela horizontalmente */
+}
+
+/* Estiliza o quadro de mensagens do chat */
+#chat-box {
+    border: 1px solid #ccc; /* Adiciona uma borda cinza-claro ao redor do chat */
+    background-color: #ffffff; /* Define a cor de fundo do chat como branco */
+    height: 300px; /* Define a altura do quadro de chat para 300px */
+    overflow-y: auto; /* Permite rolar verticalmente o conteúdo quando ele ultrapassar a altura definida */
+    padding: 10px; /* Adiciona um preenchimento de 10px dentro da área do chat */
+    margin-bottom: 10px; /* Adiciona uma margem de 10px abaixo do quadro de chat */
+    text-align: left; /* Alinha o texto à esquerda dentro do quadro de mensagens */
+}
+
+/* Estiliza a área de entrada de texto do usuário */
+#user-input {
+    width: 70%; /* Define a largura do campo de entrada como 70% da largura disponível */
+    padding: 10px; /* Adiciona um preenchimento de 10px dentro da área de input */
+}
+
+/* Estiliza o botão de envio */
+#send-btn {
+    padding: 10px 20px; /* Adiciona 10px de preenchimento acima e abaixo e 20px à esquerda e à direita do botão */
+    background-color: #6d4c41; /* Define a cor de fundo do botão como um tom de marrom */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove qualquer borda padrão do botão */
+    cursor: pointer; /* Altera o cursor para uma mãozinha ao passar sobre o botão */
+}
+
+/* Adiciona um efeito de hover no botão de envio */
+#send-btn:hover {
+    background-color: #5d4037; /* Muda a cor de fundo do botão para um tom mais escuro de marrom ao passar o mouse sobre ele */
+}
